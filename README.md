@@ -16,4 +16,4 @@
 ### 技术栈
 
   * **前端技术** ：HTML5、CSS3、JavaScript（ES6 以上）
-  * **开发工具** ：HBuilder、Chrome 浏览器
+  * **开发工具** ：HBuilder、Vsocode、Chrome 浏览器
