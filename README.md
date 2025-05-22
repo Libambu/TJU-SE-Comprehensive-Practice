@@ -17,3 +17,14 @@
 
   * **前端技术** ：HTML5、CSS3、JavaScript（ES6 以上）
   * **开发工具** ：HBuilder、VSCode、Chrome 浏览器
+  
+### 项目结构
+  * **frontend/img** ：存放项目图片资源
+    * **readme.txt** ：图片资源说明文件
+  
+  * **frontend/book** ：存放项目技术文档
+  
+  * **frontend/src** ：存放项目源码文件
+    * **css** ：存放项目样式文件
+    * **framework** ： 存放第三方库文件，以及一些共通的css文件（自定义css图标、css重置）
+    * **js** ：存放项目 JavaScript 文件
