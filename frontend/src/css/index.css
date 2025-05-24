@@ -151,3 +151,34 @@ height: 13vw;
     margin-right:4vw;
     cursor: pointer;
 }
+/****************** 超级会员部分 ******************/
+.wrapper .recommend{
+    width: 100%;
+    height: 14vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper .recommend .recommend-line{
+    width: 6vw;
+    height:0.2vw;
+    background-color: #888;
+}
+.wrapper .recommend p{
+    font-size: 4vw;
+    margin:0 4vw;
+}
+/****************** 推荐方式部分 ******************/
+.wrapper .recommendtype{
+    width: 100%;
+    height: 5vw;
+    display: flex;
+    margin-bottom: 5vw;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper .recommendtype li{
+    font-size: 3.5vw;
+    color: #555;
+    cursor: pointer;
+}
