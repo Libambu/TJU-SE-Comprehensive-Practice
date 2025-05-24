@@ -1,0 +1,28 @@
+/****************** 总容器 ******************/
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+ 
+/****************** header ******************/
+.wrapper header{
+    width: 100%;
+    height: 12vw;
+    background-color: #0097FF;
+    
+    display: flex;
+    align-items: center;
+}
+.wrapper header .icon-location-box{
+    width: 3.5vw;
+    height: 3.5vw;
+    margin: 0 1vw 0 3vw;
+}
+.wrapper header .location-text{
+    font-size: 4.5vw;
+    font-weight: 700;
+    color: #fff;
+}
+.wrapper header .location-text .fa-caret-down{
+    margin-left: 1vw;
+}
