@@ -88,3 +88,29 @@ height: 13vw;
     color: #666;
 
 }
+/****************** 横幅广告部分 ******************/
+.wrapper .banner{
+    width: 95%;
+    height: 29vw;
+    margin: 0 auto;
+
+    background-image: url("../../img/index_banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 2vw 6vw;
+}
+.wrapper .banner h3{
+    font-size : 4.2vw;
+    margin-bottom : 1.2vw;
+}
+.wrapper .banner p{
+    font-size : 3.4vw;
+    color : #666;
+    margin-bottom : 2.4vw;
+}
+.wrapper .banner a{
+    font-size : 3vw;
+    color : #C79060;
+    font-weight: 800;
+}
