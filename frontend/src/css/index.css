@@ -58,3 +58,33 @@ height: 13vw;
 .wrapper .search .search-fixed-top .search-box .fa-search{
     margin-right: 1vw;
 }
+/****************** 点餐分类 ******************/
+.wrapper .foodtype{
+    width : 100%;
+    height : 48vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+
+}
+.wrapper .foodtype li{
+    width: 18vw;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .foodtype li img{
+    width: 12vw;
+    height: 12vw;
+}
+.wrapper .foodtype li p{
+    font-size: 3.2vw;
+    color: #666;
+
+}
