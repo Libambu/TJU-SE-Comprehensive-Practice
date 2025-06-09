@@ -1,7 +1,6 @@
 # TJU-SE-Comprehensive-Practice
-以下是一份前端项目的 README 示例：
 
-## 饿了么前端项目
+## 饿了么前端VUE2版本
 
 ### 项目概述
 
