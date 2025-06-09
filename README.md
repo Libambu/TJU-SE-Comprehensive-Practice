@@ -53,7 +53,12 @@ src/
 ### 项目概述
 
 本项目参照饿了么官网网页版制作，专注于点餐业务线功能，采用前后端分离架构，前端使用 Vue.js 框架，后端使用 Servlet 技术，通过 AJAX 进行前后端数据交互，旨在帮助学习者掌握相关开发技能。
-
+业务流程
+![img](https://github.com/Libambu/TJU-SE-Comprehensive-Practice/blob/main/img/img1.png)
+MVC架构解决方案
+![img](https://github.com/Libambu/TJU-SE-Comprehensive-Practice/blob/main/img/img2.png)
+事务处理解决方案
+![img](https://github.com/Libambu/TJU-SE-Comprehensive-Practice/blob/main/img/img3.png)
 ### 项目特点
 
   * 前后端分离，便于开发和维护
@@ -72,7 +77,7 @@ src/
 #### 后端环境搭建
 
   1. **开发工具** ：IDEA
-  2. **JDK** ：配置 JDK 8
+  2. **JDK** ：配置 JDK 21
   3. **Tomcat** ：配置 Tomcat 8.5
   4. **数据库** ：MySQL（创建对应数据库及表结构）
 
