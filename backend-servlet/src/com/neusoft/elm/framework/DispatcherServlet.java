@@ -10,6 +10,7 @@ import java.io.PrintWriter;
 import java.lang.reflect.Method;
 /**
  * 自定义前端控制器 拦截url格式要求： /控制器类名/控制器方法名
+ * 分发请求
  */
 @WebServlet(name = "mydemo", value = "/")
 public class DispatcherServlet extends HttpServlet {
