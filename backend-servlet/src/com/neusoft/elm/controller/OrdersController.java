@@ -14,12 +14,14 @@ public class OrdersController {
         int orderId = service.createOrders(userId, businessId, daId, orderTotal);
         return orderId;
     }
+    //
     public Object getOrdersById(HttpServletRequest request) throws Exception{
         Integer orderId = Integer.valueOf(request.getParameter("orderId"));
         OrdersService service = new OrdersServiceImpl();
         Orders orders = service.getOrdersById(orderId);
         return orders;
     }
+    //
     public Object listOrdersByUserId(HttpServletRequest request) throws Exception{
         String userId = request.getParameter("userId");
         OrdersService service = new OrdersServiceImpl();
