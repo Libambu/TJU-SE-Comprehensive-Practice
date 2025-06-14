@@ -1,6 +1,6 @@
 # TJU-SE-Comprehensive-Practice
 
-## 饿了么前端VUE2版本
+## 饿了么前端VUE版本
 
 ### 项目概述
 
@@ -32,14 +32,35 @@
 
 ```
 src/
-├── assets/                 # 静态资源
-├── components/             # 通用组件
-├── views/                  # 页面组件
-├── router/                 # 路由配置
-├── common.js               # 公共方法
-├── App.vue                 # 根组件
-└── main.js                 # 入口文件
+│  App.vue
+│  common.js
+│  main.js
+│
+├─assets
+│  │  img
+│
+├─components
+│      Footer.vue
+│
+├─router
+│      index.js
+│
+└─views
+        AddUserAddress.vue
+        BusinessInfo.vue
+        BusinessList.vue
+        EditUserAddress.vue
+        Index.vue
+        Login.vue
+        Mine.vue
+        OrderList.vue
+        Orders.vue
+        Payment.vue
+        Register.vue
+        UserAddress.vue
 ```
+
+
 
 ### 运行项目
 
